@@ -1,0 +1,47 @@
+/* Styling for the About Us page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.about h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.6em;
+}
+
+.about p, .about ul {
+    text-align: left;
+    max-width: 700px;
+    margin: 10px auto;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 20px;
+}

@@ -1,0 +1,44 @@
+/* Basic styling for the weight calculator page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #df0d0d;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin: 10px auto;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #713b3b;
+    color: #dacece;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8e2a2a;
+}
+
+#result {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+}

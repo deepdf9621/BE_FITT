@@ -1,0 +1,46 @@
+/* Styling for the Calorie Calculator page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    color: #333;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label, input, select, button {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#calorieResult {
+    font-size: 1.2em;
+    color: #333;
+    margin-top: 20px;
+}

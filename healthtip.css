@@ -1,0 +1,45 @@
+/* Styling for the Health Tips page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, footer {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 40px 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.tips h2 {
+    color: #333;
+    margin-top: 20px;
+    font-size: 1.6em;
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: left;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+footer {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 20px;
+}

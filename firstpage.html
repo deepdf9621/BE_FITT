@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Calculator</title>
+    <link rel="stylesheet" href="firstpage.css">
+</head>
+<body>
+    <header>
+        <h1>Weight Calculator</h1>
+    </header>
+
+    <main>
+        <form id="weightForm">
+            <label for="age">Enter your age:</label>
+            <input type="number" id="age" min="1" max="100" required>
+            
+            <label for="height">Enter your height (cm):</label>
+            <input type="number" id="height" min="50" max="250" required>
+
+            <button type="button" onclick="calculateWeight()">Calculate Recommended Weight</button>
+        </form>
+
+        <p id="result"></p>
+    </main>
+
+    <script src="firstpage.js"></script>
+</body>
+</html>
